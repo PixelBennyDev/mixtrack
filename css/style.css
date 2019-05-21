@@ -2846,3 +2846,21 @@ Primary use:	Showcase Portfolio
 		display:block;
 	}
 }
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+}
+::-webkit-scrollbar-thumb {
+	background: #ffffff;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	-webkit-border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0);
+	-webkit-border-radius: 3em;
+}
